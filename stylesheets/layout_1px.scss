@@ -2,6 +2,10 @@ header {
 	h1 { text-align:center;}
 }
 section {
+  padding: 25px 0;
+	@include outer-container;
+  max-width: 58em;
+  padding: 30px;
 	@include span-columns(12);
 }
 
