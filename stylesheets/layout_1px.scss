@@ -1,29 +1,37 @@
+$green: #16DDA4;
+$font: Roboto, sans-serif;
+
 header {
-	h1 { text-align:center;}
+	h1 { 
+    color: $green;
+    text-align:center;
+  }
 }
 section {
-  padding: 25px 0;
 	@include outer-container;
-  max-width: 58em;
-  padding: 30px;
-	@include span-columns(12);
 }
 
-.footer {
-  background-color:black;
-  color: white;
-  clear: both;
-  @include span-columns(12);
-  text-align:center;
-  padding: 15px;  
-  max-width: none;
-  nav, ul { 
-    float: none;
-    width: auto;
-  }
-  li { text-transform: uppercase; }
-  ul {
-    display: inline-block;
-    padding: 0px;
+.description {
+  .intro {
+    @include span-columns(6);
   }
 }
+.questions {
+  .input {
+    @include span-columns(6);
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    padding-left: 50px;
+  }
+}
+
+.hero {
+  @include span-columns(12);
+  background-image: url("./images/tech_jobs_academy_demo.jpg");
+  background-repeat: no-repeat;
+  background-size: 750px;
+  background-position: -60px 0px;
+  padding-top: 15%;
+}
+
