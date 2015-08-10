@@ -1,3 +1,29 @@
+$green: #16DDA4;
+$font: Roboto, sans-serif;
+
 h1 {
-  color: green;
+  color: black;
+  font-family: $font;
+  font-weight: 400;
+}
+
+p {
+  font-family: $font;
+  font-weight: 400;
+}
+
+section {
+  margin: 10px;
+}
+
+.submit {
+  display:inline-block;
+  background-color: $green;
+  cursor:pointer;
+  color:white;
+  font-family: 100% $font;
+  font-size: modular-scale(0);
+  padding:8px 0px;
+  text-decoration:none;
+  border: none;
 }
