@@ -7,4 +7,57 @@ html {
 h1 {
   color: green; }
 
+header h1 {
+  text-align: center; }
+
+section {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  section:last-child {
+    margin-right: 0; }
+
+.footer {
+  background-color: black;
+  color: white;
+  clear: both;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  max-width: none; }
+  .footer:last-child {
+    margin-right: 0; }
+  .footer nav, .footer ul {
+    float: none;
+    width: auto; }
+  .footer li {
+    text-transform: uppercase; }
+  .footer ul {
+    display: inline-block;
+    padding: 0px; }
+
+@media screen and (min-width: 750px) {
+  header h1 {
+    text-align: center; }
+
+  section .questions {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    text-align: center; }
+    section .questions:last-child {
+      margin-right: 0; }
+  section .description {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    section .description:last-child {
+      margin-right: 0; } }
+
 /*# sourceMappingURL=style.css.map */
