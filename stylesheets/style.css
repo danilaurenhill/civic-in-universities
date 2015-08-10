@@ -17,13 +17,14 @@ section {
   margin: 10px; }
 
 .submit {
+  margin-top: 20px;
   display: inline-block;
   background-color: #16DDA4;
   cursor: pointer;
   color: white;
   font-family: 100% Roboto, sans-serif;
   font-size: 1em;
-  padding: 8px 0px;
+  padding: 8px 65px;
   text-decoration: none;
   border: none; }
 
